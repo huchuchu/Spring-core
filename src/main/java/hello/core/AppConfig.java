@@ -12,12 +12,12 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+
 // 구체적인 객체를 생성하고 연결한다
 @Configuration
 public class AppConfig {
     
     // 역할과 구현을 한번에 확인 할 수 있다
-
     //memberService 역할
     @Bean
     public MemberService memberService(){
